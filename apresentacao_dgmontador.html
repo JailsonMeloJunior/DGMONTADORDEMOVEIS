@@ -51,6 +51,14 @@ html.lenis, html.lenis body {
 ::-webkit-scrollbar {
   display: none;
 }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @keyframes floatSlow {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-8px); }
@@ -186,7 +194,7 @@ html.lenis, html.lenis body {
       </div>
     </div>
   </div>
-</header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full overflow-hidden">
+</header><main class="w-full pt-24 sm:pt-28 bg-background min-h-screen"><div class="flex flex-col w-full overflow-hidden">
 <!-- HERO SECTION -->
 <section id="inicio" class="relative w-full max-w-7xl mx-auto px-container-padding-mobile lg:px-container-padding-desktop pt-6 lg:pt-12 pb-16 lg:pb-24">
 <!-- Ambient backdrops -->
@@ -202,23 +210,23 @@ html.lenis, html.lenis body {
 <span class="font-label-caps text-label-caps text-primary tracking-wider uppercase font-bold">ATENDIMENTO EM TODA SÃO LUÍS - MA</span>
 </div>
 <!-- High-Impact Display Headline -->
-<h1 class="font-display-hero text-display-hero text-on-surface font-extrabold tracking-tight">
+<h1 class="font-display-hero text-[28px] xs:text-[32px] sm:text-[44px] lg:text-[54px] leading-[1.14] text-on-surface font-extrabold tracking-tight">
           Montagem com capricho,<br>
 <span class="text-primary-container">do jeito que sua casa</span> merece.
         </h1>
 <!-- Supporting Paragraph -->
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+<p class="font-body-md text-sm sm:text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
           Aqui em São Luís, quem chama o DG sabe que o móvel vai ficar bem montado — sem risco no piso, sem parede estragada, sem susto no final. Ferramenta profissional, pontualidade de verdade e aquele cuidado que só quem gosta do que faz tem. <strong>Atendo todos os bairros da ilha e a região metropolitana.</strong>
         </p>
 <!-- Price & Review Badge (Inverted Contrast Pill) -->
-<div class="flex flex-wrap items-center gap-3 p-2 pr-5 rounded-full bg-surface-container-highest">
-<div class="px-4 py-2 rounded-full bg-primary-container text-on-primary-container font-headline-sm text-headline-sm font-bold">
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 p-2.5 sm:p-2 sm:pr-5 rounded-2xl sm:rounded-full bg-surface-container-highest border border-surface-container-high/80 w-full sm:w-auto">
+<div class="px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-xl sm:rounded-full bg-primary-container text-on-primary-container font-headline-sm text-xs sm:text-headline-sm font-bold tracking-wide">
             A PARTIR DE R$ 59
           </div>
-<div class="flex items-center gap-1.5 text-on-surface pl-1">
-<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="font-label-caps text-label-caps font-bold tracking-wider text-on-surface">NOTA MÁXIMA DOS CLIENTES</span>
-<span class="font-body-sm text-body-sm text-primary font-bold">(4.9/5 • +420 serviços)</span>
+<div class="flex flex-wrap items-center gap-1.5 text-on-surface pl-1">
+<span class="material-symbols-outlined text-primary text-[18px] sm:text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-caps text-[11px] sm:text-label-caps font-bold tracking-wider text-on-surface">NOTA MÁXIMA DOS CLIENTES</span>
+<span class="font-body-sm text-xs sm:text-body-sm text-primary font-bold">(4.9/5 • +420 serviços)</span>
 </div>
 </div>
 <!-- CTA and Instant WhatsApp button -->
@@ -251,8 +259,8 @@ html.lenis, html.lenis body {
           </span>
 </div>
 <!-- Coverage Location Tag -->
-<div class="flex items-center gap-2 pt-1 text-xs text-secondary">
-  <span class="material-symbols-outlined text-tertiary text-[18px]">verified</span>
+<div class="flex items-start gap-2 pt-2 text-xs sm:text-sm text-secondary leading-relaxed">
+  <span class="material-symbols-outlined text-tertiary text-[18px] mt-0.5 flex-shrink-0">verified</span>
   <span>Atendo toda a ilha: Renascença, Calhau, Cohama, Cohatrac, Turu, Ponta d'Areia, Centro, Vinhais, Araçagy e região metropolitana.</span>
 </div>
 </div>
@@ -342,47 +350,46 @@ html.lenis, html.lenis body {
 <!-- SECTION: VOCÊ COMPRA. A GENTE MONTA. (Inverted cards carousel layout) -->
 <section id="servicos" class="w-full max-w-7xl mx-auto px-container-padding-mobile lg:px-container-padding-desktop py-16 lg:py-24">
 <!-- Section Header & Filter Pills -->
-<div class="flex flex-col items-center text-center mb-10 reveal-on-scroll">
-  <span class="px-4 py-1.5 rounded-full bg-surface-container-high font-label-caps text-label-caps text-primary tracking-widest uppercase mb-3">
+<div class="flex flex-col items-center text-center mb-8 sm:mb-10 reveal-on-scroll">
+  <span class="px-4 py-1.5 rounded-full bg-surface-container-high font-label-caps text-xs sm:text-label-caps text-primary tracking-widest uppercase mb-3 border border-primary/20">
     O QUE EU MONTO
   </span>
-  <h2 class="font-headline-xl text-headline-xl text-on-surface font-black tracking-tight mb-6">
+  <h2 class="font-headline-xl text-[24px] sm:text-[34px] lg:text-[40px] leading-tight text-on-surface font-black tracking-tight mb-3">
     Montagem profissional <span class="text-primary-container">pra todo cômodo da sua casa.</span>
   </h2>
-  <!-- Interactive Pill Segmented Control com transição refinada -->
-  <div class="inline-flex items-center p-1.5 rounded-full bg-surface-container-high mb-4 overflow-x-auto max-w-full border border-surface-container-highest/60 shadow-lg gap-1">
-    <button data-filter="todos" class="service-tab-btn flex items-center gap-2 px-5 py-2.5 rounded-full font-button-text text-button-text bg-primary-container text-on-primary-container font-bold shadow-[0_4px_16px_rgba(255,107,0,0.4)] scale-100 transition-all cursor-pointer" type="button">
-      <span class="material-symbols-outlined text-[18px]">category</span>
-      <span>Todos os Móveis</span>
-      <span class="ml-1 px-2 py-0.5 rounded-full bg-black/20 text-xs font-mono">6</span>
-    </button>
-    <button data-filter="quarto" class="service-tab-btn flex items-center gap-2 px-5 py-2.5 rounded-full font-button-text text-button-text text-secondary hover:text-on-surface hover:bg-surface-container-highest/60 transition-all cursor-pointer" type="button">
-      <span class="material-symbols-outlined text-[18px]">bed</span>
-      <span>Quartos</span>
-      <span class="ml-1 px-2 py-0.5 rounded-full bg-surface-container-highest text-xs font-mono text-secondary">2</span>
-    </button>
-    <button data-filter="sala" class="service-tab-btn flex items-center gap-2 px-5 py-2.5 rounded-full font-button-text text-button-text text-secondary hover:text-on-surface hover:bg-surface-container-highest/60 transition-all cursor-pointer" type="button">
-      <span class="material-symbols-outlined text-[18px]">desk</span>
-      <span>Salas &amp; Home Office</span>
-      <span class="ml-1 px-2 py-0.5 rounded-full bg-surface-container-highest text-xs font-mono text-secondary">2</span>
-    </button>
-    <button data-filter="cozinha" class="service-tab-btn flex items-center gap-2 px-5 py-2.5 rounded-full font-button-text text-button-text text-secondary hover:text-on-surface hover:bg-surface-container-highest/60 transition-all cursor-pointer" type="button">
-      <span class="material-symbols-outlined text-[18px]">kitchen</span>
-      <span>Cozinhas &amp; Armários</span>
-      <span class="ml-1 px-2 py-0.5 rounded-full bg-surface-container-highest text-xs font-mono text-secondary">2</span>
-    </button>
+  <p class="font-body-md text-sm sm:text-body-lg text-on-surface-variant max-w-2xl mb-6">
+    Do móvel mais simples aos projetos planejados que exigem precisão. Clique nas categorias abaixo para filtrar:
+  </p>
+
+  <!-- Interactive Pill Segmented Control com scroll horizontal fluido e sem quebra no mobile -->
+  <div class="w-full sm:w-auto overflow-x-auto no-scrollbar py-1 px-1">
+    <div class="inline-flex items-center p-1 sm:p-1.5 rounded-full bg-surface-container-high border border-surface-container-highest/60 shadow-lg gap-1 sm:gap-1.5 flex-nowrap">
+      <button data-filter="todos" class="service-tab-btn whitespace-nowrap flex-shrink-0 flex items-center gap-1.5 sm:gap-2 px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full font-button-text text-xs sm:text-button-text bg-primary-container text-on-primary-container font-bold shadow-[0_4px_16px_rgba(255,107,0,0.4)] scale-100 transition-all cursor-pointer" type="button">
+        <span class="material-symbols-outlined text-[16px] sm:text-[18px]">category</span>
+        <span>Todos os Móveis</span>
+        <span class="ml-1 px-1.5 py-0.5 rounded-full bg-black/20 text-[10px] sm:text-xs font-mono">6</span>
+      </button>
+      <button data-filter="quarto" class="service-tab-btn whitespace-nowrap flex-shrink-0 flex items-center gap-1.5 sm:gap-2 px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full font-button-text text-xs sm:text-button-text text-secondary hover:text-on-surface hover:bg-surface-container-highest/60 transition-all cursor-pointer" type="button">
+        <span class="material-symbols-outlined text-[16px] sm:text-[18px]">bed</span>
+        <span>Quartos</span>
+        <span class="ml-1 px-1.5 py-0.5 rounded-full bg-surface-container-highest text-[10px] sm:text-xs font-mono text-secondary">2</span>
+      </button>
+      <button data-filter="sala" class="service-tab-btn whitespace-nowrap flex-shrink-0 flex items-center gap-1.5 sm:gap-2 px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full font-button-text text-xs sm:text-button-text text-secondary hover:text-on-surface hover:bg-surface-container-highest/60 transition-all cursor-pointer" type="button">
+        <span class="material-symbols-outlined text-[16px] sm:text-[18px]">desk</span>
+        <span>Salas &amp; Home Office</span>
+        <span class="ml-1 px-1.5 py-0.5 rounded-full bg-surface-container-highest text-[10px] sm:text-xs font-mono text-secondary">2</span>
+      </button>
+      <button data-filter="cozinha" class="service-tab-btn whitespace-nowrap flex-shrink-0 flex items-center gap-1.5 sm:gap-2 px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full font-button-text text-xs sm:text-button-text text-secondary hover:text-on-surface hover:bg-surface-container-highest/60 transition-all cursor-pointer" type="button">
+        <span class="material-symbols-outlined text-[16px] sm:text-[18px]">kitchen</span>
+        <span>Cozinhas &amp; Armários</span>
+        <span class="ml-1 px-1.5 py-0.5 rounded-full bg-surface-container-highest text-[10px] sm:text-xs font-mono text-secondary">2</span>
+      </button>
+    </div>
   </div>
 
-  <div id="service-filter-feedback" class="text-xs font-label-caps uppercase tracking-widest text-primary font-bold mb-4 transition-all duration-300">
+  <div id="service-filter-feedback" class="text-xs font-label-caps uppercase tracking-widest text-primary font-bold mt-3 transition-all duration-300">
     ✨ Exibindo todos os 6 serviços especializados • Atendimento em toda São Luís - MA
   </div>
-
-  <h2 class="font-headline-xl text-headline-xl text-on-surface font-extrabold tracking-tight">
-    Você compra. A gente monta.
-  </h2>
-  <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-3">
-    Do móvel mais simples aos projetos planejados que exigem precisão, conte com o DG para uma montagem rápida e segura em qualquer bairro de São Luís do MA.
-  </p>
 </div>
 
 <!-- 6 Cards Grid com filtro interativo -->
@@ -577,7 +584,7 @@ html.lenis, html.lenis body {
 <section id="qualidade" class="relative w-full py-20 lg:py-28 bg-surface-container-lowest overflow-hidden">
 <!-- Giant Typography Background -->
 <div class="w-full flex justify-center text-center select-none pointer-events-none px-4">
-<h2 class="font-display-hero text-[44px] sm:text-[72px] lg:text-[108px] leading-tight font-black uppercase text-on-surface/10 tracking-tighter">
+<h2 class="font-display-hero text-[28px] sm:text-[60px] lg:text-[100px] leading-tight font-black uppercase text-on-surface/10 tracking-tighter">
         SEU MÓVEL NAS MÃOS CERTAS.
       </h2>
 </div>
@@ -682,14 +689,14 @@ html.lenis, html.lenis body {
 <span class="px-4 py-1.5 rounded-full bg-surface-container-high font-label-caps text-label-caps text-primary tracking-widest uppercase">
         SEM COMPLICAÇÃO
       </span>
-<h2 class="font-headline-xl text-headline-xl text-on-surface font-extrabold mt-3">
+<h2 class="font-headline-xl text-[24px] sm:text-[32px] lg:text-headline-xl text-on-surface font-extrabold mt-3 leading-tight">
         Veja como é fácil<br>
 <span class="text-primary">tirar essa caixa da sala.</span>
 </h2>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
 <!-- Step 01 -->
-<div class="relative flex flex-col p-8 rounded-3xl bg-surface-container-high shadow-xl hover:bg-surface-bright transition-colors group reveal-on-scroll reveal-stagger-1">
+<div class="relative flex flex-col p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-surface-container-high shadow-xl hover:bg-surface-bright transition-colors group reveal-on-scroll reveal-stagger-1">
 <div class="flex items-center justify-between mb-6">
 <span class="font-display-hero text-display-hero font-black text-primary-container/30 group-hover:text-primary-container transition-colors">01</span>
 <div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
@@ -704,7 +711,7 @@ html.lenis, html.lenis body {
         </p>
 </div>
 <!-- Step 02 (Highlighted with Petrol / Glowing Border) -->
-<div class="relative flex flex-col p-8 rounded-3xl bg-surface-container shadow-2xl hover:bg-surface-container-high transition-colors group reveal-on-scroll reveal-stagger-2">
+<div class="relative flex flex-col p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-surface-container shadow-2xl hover:bg-surface-container-high transition-colors group reveal-on-scroll reveal-stagger-2">
 <div class="absolute -top-3 left-8 px-3 py-1 rounded-full bg-tertiary-container text-on-tertiary-container font-label-caps text-label-caps font-bold uppercase">
           RESPOSTA RÁPIDA
         </div>
@@ -722,7 +729,7 @@ html.lenis, html.lenis body {
         </p>
 </div>
 <!-- Step 03 -->
-<div class="relative flex flex-col p-8 rounded-3xl bg-surface-container-high shadow-xl hover:bg-surface-bright transition-colors group reveal-on-scroll reveal-stagger-3">
+<div class="relative flex flex-col p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-surface-container-high shadow-xl hover:bg-surface-bright transition-colors group reveal-on-scroll reveal-stagger-3">
 <div class="flex items-center justify-between mb-6">
 <span class="font-display-hero text-display-hero font-black text-primary-container/30 group-hover:text-primary-container transition-colors">03</span>
 <div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center text-primary-container">
@@ -747,7 +754,7 @@ html.lenis, html.lenis body {
 </section>
 <!-- SECTION: PREÇO & CONFIANÇA (Full-Width High Contrast Hero Module) -->
 <section id="valores" class="w-full max-w-5xl mx-auto px-container-padding-mobile py-8">
-<div class="relative rounded-3xl bg-gradient-to-br from-surface-container-high via-surface-container to-surface-container-low p-8 lg:p-14 shadow-[0_24px_50px_rgba(0,16,24,0.9)] overflow-hidden reveal-on-scroll">
+<div class="relative rounded-2xl sm:rounded-3xl bg-gradient-to-br from-surface-container-high via-surface-container to-surface-container-low p-6 sm:p-10 lg:p-14 shadow-[0_24px_50px_rgba(0,16,24,0.9)] overflow-hidden reveal-on-scroll">
 <!-- Decorative Glow Circle inside container -->
 <div class="absolute -bottom-10 -right-10 w-80 h-80 bg-primary-container/20 rounded-full blur-3xl pointer-events-none"></div>
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
@@ -756,7 +763,7 @@ html.lenis, html.lenis body {
 <span class="material-symbols-outlined text-primary text-[18px]">payments</span>
 <span class="font-label-caps text-label-caps text-primary uppercase font-bold">PREÇO JUSTO</span>
 </div>
-<h2 class="font-headline-xl text-headline-xl text-on-surface font-black tracking-tight">
+<h2 class="font-headline-xl text-[24px] sm:text-[32px] lg:text-headline-xl text-on-surface font-black tracking-tight leading-tight">
             Valor claro, <span class="text-primary-container">sem pegadinha</span>
 </h2>
 <p class="font-body-md text-body-md text-on-surface-variant max-w-md">
@@ -803,7 +810,7 @@ html.lenis, html.lenis body {
 <span class="font-label-caps text-label-caps text-primary-container uppercase font-bold tracking-widest">
             FALE CONOSCO • SÃO LUÍS - MA
           </span>
-<h3 class="font-headline-lg text-headline-lg text-surface-container-lowest font-black mt-2 mb-3">
+<h3 class="font-headline-lg text-[22px] sm:text-[28px] lg:text-headline-lg text-surface-container-lowest font-black mt-2 mb-3 leading-tight">
             Comprou móvel novo, pela internet ou na loja?
           </h3>
 <p class="font-body-md text-body-md text-surface-container-highest mb-8">
@@ -845,7 +852,7 @@ html.lenis, html.lenis body {
 <div class="w-14 h-14 rounded-full bg-on-primary-container/10 flex items-center justify-center text-on-primary-container mb-6">
 <span class="material-symbols-outlined text-[32px]">build</span>
 </div>
-<h3 class="font-headline-xl text-headline-xl font-black mb-4 leading-tight">
+<h3 class="font-headline-xl text-[24px] sm:text-[32px] lg:text-headline-xl font-black mb-4 leading-tight">
             Bora montar?<br>
             Móvel pronto, sem dor de cabeça.
           </h3>
@@ -999,13 +1006,13 @@ html.lenis, html.lenis body {
     });
   });
 </script></main><footer class="w-full bg-surface-container-low mt-section-gap pt-gutter-2xl pb-gutter-xl"><div class="max-w-7xl mx-auto px-container-padding-mobile lg:px-container-padding-desktop"><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-xl pb-gutter-2xl"><div class="md:col-span-5 flex flex-col gap-gutter-md"><div class="flex items-center gap-gutter-md"><a href="#" class="flex items-center"><img src="data:image/png;base64,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" alt="DG Montador de Móveis" class="h-9 sm:h-10 w-auto object-contain"></a></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Montagem profissional com capricho em São Luís do Maranhão. Cuidado com o piso, ferramentas profissionais e atendimento de verdade em toda a ilha.</p><div class="flex items-center gap-gutter-sm pt-gutter-xs"><span class="material-symbols-outlined text-tertiary text-[20px]">verified</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Garantia total de serviço</span></div></div><div class="md:col-span-3 flex flex-col gap-gutter-md"><span class="font-label-caps text-label-caps text-primary uppercase">Navegação</span><ul class="flex flex-col gap-gutter-sm font-body-md text-body-md text-on-surface-variant"><li class="hover:text-on-surface transition-colors"><a data-path="inicio" href="#inicio" class="">Início</a></li><li class="hover:text-on-surface transition-colors"><a data-path="servicos" href="#servicos" class="">Serviços e Especialidades</a></li><li class="hover:text-on-surface transition-colors"><a data-path="como-funciona" href="#como-funciona" class="">Fluxo de Atendimento</a></li><li class="hover:text-on-surface transition-colors"><a data-path="valores" href="#valores" class="">Tabela e Orçamentos</a></li></ul></div><div class="md:col-span-4 flex flex-col gap-gutter-md"><span class="font-label-caps text-label-caps text-primary uppercase">Atendimento Rápido</span><div class="flex flex-col gap-gutter-sm"><div class="flex items-start gap-gutter-sm text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[20px] mt-0.5">phone_iphone</span><div><p class="font-body-sm text-body-sm text-on-surface font-bold">(98) 98182-5346</p><a href="https://wa.me/5598981825346?text=Ol%C3%A1%20DG!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="font-body-sm text-body-sm text-primary hover:underline flex items-center gap-1">Chamar no WhatsApp <span class="material-symbols-outlined text-[14px]">open_in_new</span></a></div></div><div class="flex items-start gap-gutter-sm text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[20px] mt-0.5">schedule</span><div><p class="font-body-sm text-body-sm text-on-surface font-bold">Segunda a Sábado: 08h às 19h</p><p class="font-body-sm text-body-sm">Atendimento emergencial sob consulta</p></div></div><div class="flex items-start gap-gutter-sm text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[20px] mt-0.5">location_on</span><div><p class="font-body-sm text-body-sm text-on-surface font-bold">Toda a Área de São Luís - MA</p><p class="font-body-sm text-body-sm">Atendimento em todos os bairros da capital e região metropolitana (Paço do Lumiar, Raposa e Ribamar)</p></div></div></div></div></div><div class="pt-gutter-lg flex flex-col sm:flex-row items-center justify-between gap-gutter-md text-on-surface-variant font-body-sm text-body-sm"><p class="">© 2025 DG Montador de Móveis. Todos os direitos reservados.</p><div class="flex items-center gap-gutter-lg"><span class="inline-flex items-center gap-1"><span class="material-symbols-outlined text-tertiary text-[16px]">shield</span> Montagem Segura</span><span class="inline-flex items-center gap-1"><span class="material-symbols-outlined text-tertiary text-[16px]">handyman</span> Ferramentas Próprias</span></div></div></div></footer><!-- Floating WhatsApp Quick CTA with pulsing glow -->
-<div class="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-50 flex items-center gap-3">
+<div class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex items-center gap-3">
   <div class="hidden md:flex items-center px-4 py-2 rounded-full bg-surface-container/95 backdrop-blur-md border border-surface-container-highest text-on-surface shadow-xl text-xs font-bold">
     <span class="w-2 h-2 rounded-full bg-[#25D366] animate-ping mr-2"></span>
     <span>Orçamento Rápido • São Luís - MA</span>
   </div>
-  <a class="flex items-center gap-2 px-4 sm:px-5 h-14 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-button-text text-button-text shadow-[0_10px_30px_rgba(37,211,102,0.4)] hover:shadow-[0_14px_40px_rgba(37,211,102,0.6)] transform hover:scale-105 active:scale-95 transition-all" href="https://wa.me/5598981825346?text=Ol%C3%A1%20DG!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20montagem%20de%20m%C3%B3veis%20em%20S%C3%A3o%20Lu%C3%ADs." rel="noopener noreferrer" target="_blank" aria-label="Falar no WhatsApp com o montador">
-    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+  <a class="flex items-center gap-2 px-3.5 sm:px-5 h-12 sm:h-14 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-button-text text-sm sm:text-button-text shadow-[0_8px_24px_rgba(37,211,102,0.45)] hover:shadow-[0_14px_40px_rgba(37,211,102,0.6)] transform hover:scale-105 active:scale-95 transition-all" href="https://wa.me/5598981825346?text=Ol%C3%A1%20DG!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20montagem%20de%20m%C3%B3veis%20em%20S%C3%A3o%20Lu%C3%ADs." rel="noopener noreferrer" target="_blank" aria-label="Falar no WhatsApp com o montador">
+    <svg class="w-5 h-5 sm:w-6 sm:h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
     <span class="font-bold text-sm sm:text-base">WhatsApp</span>
   </a>
 </div>
