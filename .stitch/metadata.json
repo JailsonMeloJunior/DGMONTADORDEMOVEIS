@@ -1,0 +1,290 @@
+{
+  "createTime": "2026-09-07T18:06:52.448563Z",
+  "designTheme": {
+    "bodyFont": "PLUS_JAKARTA_SANS",
+    "bodyFontFamily": "Plus Jakarta Sans",
+    "colorMode": "DARK",
+    "colorVariant": "FIDELITY",
+    "customColor": "#ff6b00",
+    "designMd": "---\nname: DG Montador de Móveis\ncolors:\n  surface: '#00161f'\n  surface-dim: '#00161f'\n  surface-bright: '#243c48'\n  surface-container-lowest: '#001018'\n  surface-container-low: '#041e29'\n  surface-container: '#08222d'\n  surface-container-high: '#142d38'\n  surface-container-highest: '#203843'\n  on-surface: '#cde6f5'\n  on-surface-variant: '#e2bfb0'\n  inverse-surface: '#cde6f5'\n  inverse-on-surface: '#1b333f'\n  outline: '#a98a7d'\n  outline-variant: '#5a4136'\n  surface-tint: '#ffb693'\n  primary: '#ffb693'\n  on-primary: '#561f00'\n  primary-container: '#ff6b00'\n  on-primary-container: '#572000'\n  inverse-primary: '#a04100'\n  secondary: '#b6cad3'\n  on-secondary: '#21333a'\n  secondary-container: '#374951'\n  on-secondary-container: '#a5b8c1'\n  tertiary: '#00daf3'\n  on-tertiary: '#00363d'\n  tertiary-container: '#00a8bb'\n  on-tertiary-container: '#00373e'\n  error: '#ffb4ab'\n  on-error: '#690005'\n  error-container: '#93000a'\n  on-error-container: '#ffdad6'\n  primary-fixed: '#ffdbcc'\n  primary-fixed-dim: '#ffb693'\n  on-primary-fixed: '#351000'\n  on-primary-fixed-variant: '#7a3000'\n  secondary-fixed: '#d2e6ef'\n  secondary-fixed-dim: '#b6cad3'\n  on-secondary-fixed: '#0b1e25'\n  on-secondary-fixed-variant: '#374951'\n  tertiary-fixed: '#9cf0ff'\n  tertiary-fixed-dim: '#00daf3'\n  on-tertiary-fixed: '#001f24'\n  on-tertiary-fixed-variant: '#004f58'\n  background: '#00161f'\n  on-background: '#cde6f5'\n  surface-variant: '#203843'\ntypography:\n  display-hero:\n    fontFamily: Syne\n    fontSize: 56px\n    fontWeight: '800'\n    lineHeight: 64px\n    letterSpacing: -0.03em\n  display-hero-mobile:\n    fontFamily: Syne\n    fontSize: 36px\n    fontWeight: '800'\n    lineHeight: 42px\n    letterSpacing: -0.02em\n  headline-xl:\n    fontFamily: Syne\n    fontSize: 40px\n    fontWeight: '800'\n    lineHeight: 48px\n    letterSpacing: -0.02em\n  headline-xl-mobile:\n    fontFamily: Syne\n    fontSize: 28px\n    fontWeight: '700'\n    lineHeight: 34px\n    letterSpacing: -0.01em\n  headline-lg:\n    fontFamily: Syne\n    fontSize: 30px\n    fontWeight: '700'\n    lineHeight: 38px\n    letterSpacing: -0.01em\n  headline-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 22px\n    fontWeight: '700'\n    lineHeight: 30px\n    letterSpacing: 0em\n  headline-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 18px\n    fontWeight: '700'\n    lineHeight: 24px\n    letterSpacing: 0em\n  ticker-label:\n    fontFamily: Syne\n    fontSize: 24px\n    fontWeight: '800'\n    lineHeight: 32px\n    letterSpacing: 0.05em\n  body-lg:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: 28px\n  body-md:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 15px\n    fontWeight: '400'\n    lineHeight: 24px\n  body-sm:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 13px\n    fontWeight: '500'\n    lineHeight: 18px\n  label-caps:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 12px\n    fontWeight: '800'\n    lineHeight: 16px\n    letterSpacing: 0.12em\n  button-text:\n    fontFamily: Plus Jakarta Sans\n    fontSize: 15px\n    fontWeight: '700'\n    lineHeight: 20px\n    letterSpacing: 0.01em\nrounded:\n  sm: 0.5rem\n  DEFAULT: 1rem\n  md: 1.5rem\n  lg: 2rem\n  xl: 3rem\n  full: 9999px\nspacing:\n  gutter-xs: 0.25rem\n  gutter-sm: 0.5rem\n  gutter-md: 1rem\n  gutter-lg: 1.5rem\n  gutter-xl: 2.5rem\n  gutter-2xl: 4rem\n  container-padding-mobile: 1.25rem\n  container-padding-desktop: 3rem\n  section-gap: 5rem\n---\n\n## Brand & Style\n\nThe design system establishes an energetic, premium, high-conversion presence for specialized furniture assembly and interior installation services. Translating the architectural flow of dynamic consumer landing pages—marked by deep tinted backgrounds, high-contrast floating modules, pill badges, and kinetic ticker bands—this system turns manual trade work into an authoritative, mastercraft digital experience.\n\n### Brand Attributes & Target Audience\n- **Target Audience:** Homeowners, interior designers, corporate office managers, and online furniture buyers who value punctuality, absolute precision, and worry-free execution over cheap manual labor.\n- **Emotional Response:** Confidence, instant relief, dynamism, and premium professionalism. The interface feels snappy, modern, and industrial yet remarkably polished.\n- **Visual Style:** High-Contrast Dynamic Editorial. It unites the solid weight of construction machinery and precision tooling with fluid, rounded shapes, pill-form containers, and glowing focal points that guide users directly down the conversion funnel.\n\n## Colors\n\nThe color palette is rooted in an ultra-deep petrol teal background that feels far richer and more architectural than generic neutral blacks or grays. On top of this depth sits electric assembly orange for high-urgency conversions and kinetic emphasis.\n\n### Palette Architecture\n- **Primary Brand & Action (`#FF6B00` / `#FF7A00`):** Electric Safety Orange. Reserved for high-value calls-to-action (Request Quote, Book Now, WhatsApp Instant), active tabs, dynamic ticker ribbons, and prominent pill containers.\n- **Deep Petrol Teal Foundations (`#071A21` / `#0B2530`):** Provides a velvet, rich dark canvas that frames content with high prestige and zero eye strain.\n- **Elevated Surfaces (`#13333F` & `#1C4352`):** Used for elevated cards, segmented control backs, and floating pill chips.\n- **Pure Crisp Light (`#FFFFFF` & `#F4F6F8`):** Dominates high-contrast cards, inverted badge containers, and hero headlines to replicate the bright editorial contrast seen in modern showcase pages.\n- **Precision Accents (`#00E5FF` & `#FFD027`):** Electric cyan and safety warning yellow provide micro-indicator cues, five-star review highlights, verified badges, and laser-guided precision cues.\n\n## Typography\n\nThe typographical strategy pairs the sculptural, high-impact forms of **Syne** with the ultra-clean, balanced readability of **Plus Jakarta Sans**.\n\n- **Syne (Headlines & Tickers):** Delivers aggressive confidence and contemporary geometry in uppercase and bold displays. Headlines command immediate visual interest, while continuous scrolling ticker text brings industrial motion and punch.\n- **Plus Jakarta Sans (Body & Controls):** Delivers clarity and humanistic warmth. It keeps technical furniture specifications, pricing tables, checklist items, and quote calculators effortlessly scannable across handheld and desktop displays.\n\n## Layout & Spacing\n\nThe layout is built upon a high-contrast vertical rhythm influenced by dynamic campaign architecture. Sections alternate between immersive dark full-bleed zones and high-impact white pill-card islands.\n\n### Rhythm & Composition\n- **Grid Layout:** 12-column desktop grid (max-width `1240px`) adapting to a 4-column framework on mobile devices.\n- **Asymmetrical Pill Anchors:** Featured products or services use curved pill-shaped backgrounds that run diagonally or offset behind cut-out imagery of tools and assembled installations.\n- **Marquee Ticker Strips:** Full-width angled or horizontal banner bands spanning edge-to-edge (`padding: 1rem 0`) breaking long content blocks and declaring core value propositions (e.g., \"MONTAGEM PROFISSIONAL • AGILIDADE • GARANTIA TOTAL •\").\n- **Responsive Stacking:** Multi-column showcase cards compress into horizontal snap-scrolling carousels on mobile screens, preserving the fluid app-like tactile feel.\n\n## Elevation & Depth\n\nDepth is treated through sharp silhouette separation and soft, luminous colored underglows rather than traditional muddy drop shadows.\n\n- **Level 0 (Canvas Base):** Deep solid `#071A21` creating immediate atmosphere.\n- **Level 1 (Layered Shells):** Elevated teal containers (`#0B2530` with `1px solid rgba(255, 255, 255, 0.08)` borders) that subtly step forward.\n- **Level 2 (Inverted Contrast Islands):** Crisp white (`#FFFFFF` and `#F4F6F8`) floating cards. These use a rich, deep ambient shadow: `0 24px 48px -12px rgba(0, 0, 0, 0.45)`.\n- **Level 3 (Action Glows):** Primary buttons and interactive CTA pills feature an energetic orange back-glow: `0 8px 24px rgba(255, 107, 0, 0.35)`. Hover states intensify this dispersion to `0 12px 32px rgba(255, 107, 0, 0.5)`.\n- **Cut-Out Elevation:** Assembled furniture items and tool mockups break card boundaries with transparent PNG floating effects, anchored by a soft contact shadow underneath: `0 16px 30px rgba(0, 0, 0, 0.6)`.\n\n## Shapes\n\nThe design system is heavily defined by exaggerated, friendly pill-geometry (`roundedness: 3`). \n\n- **Full Pills (`9999px`):** Used universally for all main action triggers, floating category switches, badge tags, and horizontal floating navigation bars.\n- **Arch & Pill Containers (`rounded-3xl` / `24px - 32px`):** Used for service cards, testimonial blocks, and booking forms, mimicking the modern archway and curved silhouettes found in premium interior architecture.\n- **Sticker Badges:** Off-axis rotated pills (`-2deg` to `3deg`) applied to pricing guarantees and fast-response time promises to deliver commercial vigor.\n\n## Components\n\n### 1. Navigation Island\n- **Structure:** Floating, detached pill-shaped navbar centered at the top of the viewport.\n- **Surface:** Glassmorphic translucent petrol teal (`rgba(11, 37, 48, 0.85)`) with `backdrop-filter: blur(16px)` and a `1px solid rgba(255, 255, 255, 0.1)` border.\n- **Contents:** DG logo on the left, pill navigation links in the center, and a vibrant `#FF6B00` pill button (\"Pedir Orçamento\") on the right.\n\n### 2. Buttons\n- **Primary CTA:** Full pill (`border-radius: 9999px`), solid `#FF6B00` background, pure white bold text, accompanied by an animated right arrow icon or direct WhatsApp icon. Height: `52px` (desktop), `48px` (mobile).\n- **Secondary CTA:** Full pill in inverted contrast `#FFFFFF` background with `#071A21` text, or transparent outline (`border: 2px solid #FF6B00`) with white text.\n- **Pill Segmented Controls:** Dark background capsule holding seamless switchable pills (e.g., \"Montagem Residencial\", \"Montagem Corporativa\", \"Instalação de Painéis\"). Active tab fills with `#FF6B00` or `#FFFFFF` with contrasting dark text.\n\n### 3. Service & Furniture Showcase Cards\n- **Dark Tier:** Curved rectangle card in `#0B2530` with an arched background graphic in `#13333F`. The furniture item (e.g., Wardrobe, Dining Set, Ergonomic Desk) pops outward beyond the top perimeter.\n- **Inverted Tier (Light Card):** Crisp white pill card (`#FFFFFF`) housing dark charcoal typography, micro checklist chips, and a saturated `#FF6B00` action button docked at the bottom.\n- **Card Badges:** Pill-shaped mini-tags in the top corner (e.g., \"Mais Solicitado\", \"Garantia 1 Ano\") using `#00E5FF` or `#FF6B00` fills.\n\n### 4. Continuous Marquee Ticker Band\n- **Style:** Full-width strip filled in `#FF6B00` (or contrasting teal) tilted slightly at `-1.5deg`.\n- **Content:** Repeated bold capitalized typography in `Syne 800` punctuated by star or wrench icons, moving seamlessly in an infinite loop.\n\n### 5. Input Fields & Quick Quote Form\n- **Form Surface:** Encapsulated in a rounded white container (`#FFFFFF`) or high-contrast petrol box.\n- **Inputs:** Pill-shaped fields (`border-radius: 9999px`) with subtle light borders (`1.5px solid #E2E8F0`), active focus state transitioning to a vibrant glowing `#FF6B00` stroke with zero inner shadow.\n- **File Upload:** Pill-styled drag-and-drop zone allowing clients to attach furniture manuals, purchase links, or box photos.\n\n### 6. Chips & Service Badges\n- **Visuals:** Small compact pills (`height: 32px`, `padding: 0 16px`) with `Plus Jakarta Sans 700`. Used to highlight fast attributes: \"Sem Sujeira\", \"Pontualidade 100%\", \"Ferramentas Próprias\".",
+    "font": "SYNE",
+    "headlineFont": "SYNE",
+    "headlineFontFamily": "Syne",
+    "labelFont": "PLUS_JAKARTA_SANS",
+    "labelFontFamily": "Plus Jakarta Sans",
+    "namedColors": {
+      "background": "#00161f",
+      "error": "#ffb4ab",
+      "error_container": "#93000a",
+      "inverse_on_surface": "#1b333f",
+      "inverse_primary": "#a04100",
+      "inverse_surface": "#cde6f5",
+      "on_background": "#cde6f5",
+      "on_error": "#690005",
+      "on_error_container": "#ffdad6",
+      "on_primary": "#561f00",
+      "on_primary_container": "#572000",
+      "on_primary_fixed": "#351000",
+      "on_primary_fixed_variant": "#7a3000",
+      "on_secondary": "#21333a",
+      "on_secondary_container": "#a5b8c1",
+      "on_secondary_fixed": "#0b1e25",
+      "on_secondary_fixed_variant": "#374951",
+      "on_surface": "#cde6f5",
+      "on_surface_variant": "#e2bfb0",
+      "on_tertiary": "#00363d",
+      "on_tertiary_container": "#00373e",
+      "on_tertiary_fixed": "#001f24",
+      "on_tertiary_fixed_variant": "#004f58",
+      "outline": "#a98a7d",
+      "outline_variant": "#5a4136",
+      "primary": "#ffb693",
+      "primary_container": "#ff6b00",
+      "primary_fixed": "#ffdbcc",
+      "primary_fixed_dim": "#ffb693",
+      "secondary": "#b6cad3",
+      "secondary_container": "#374951",
+      "secondary_fixed": "#d2e6ef",
+      "secondary_fixed_dim": "#b6cad3",
+      "surface": "#00161f",
+      "surface_bright": "#243c48",
+      "surface_container": "#08222d",
+      "surface_container_high": "#142d38",
+      "surface_container_highest": "#203843",
+      "surface_container_low": "#041e29",
+      "surface_container_lowest": "#001018",
+      "surface_dim": "#00161f",
+      "surface_tint": "#ffb693",
+      "surface_variant": "#203843",
+      "tertiary": "#00daf3",
+      "tertiary_container": "#00a8bb",
+      "tertiary_fixed": "#9cf0ff",
+      "tertiary_fixed_dim": "#00daf3"
+    },
+    "overrideNeutralColor": "#0b2530",
+    "overridePrimaryColor": "#ff6b00",
+    "overrideSecondaryColor": "#071a21",
+    "overrideTertiaryColor": "#00e5ff",
+    "roundness": "ROUND_FULL",
+    "spacing": {
+      "container-padding-desktop": "3rem",
+      "container-padding-mobile": "1.25rem",
+      "gutter-2xl": "4rem",
+      "gutter-lg": "1.5rem",
+      "gutter-md": "1rem",
+      "gutter-sm": "0.5rem",
+      "gutter-xl": "2.5rem",
+      "gutter-xs": "0.25rem",
+      "section-gap": "5rem"
+    },
+    "spacingScale": 2,
+    "typography": {
+      "body-lg": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "28px"
+      },
+      "body-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "24px"
+      },
+      "body-sm": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "lineHeight": "18px"
+      },
+      "button-text": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "15px",
+        "fontWeight": "700",
+        "letterSpacing": "0.01em",
+        "lineHeight": "20px"
+      },
+      "display-hero": {
+        "fontFamily": "Syne",
+        "fontSize": "56px",
+        "fontWeight": "800",
+        "letterSpacing": "-0.03em",
+        "lineHeight": "64px"
+      },
+      "display-hero-mobile": {
+        "fontFamily": "Syne",
+        "fontSize": "36px",
+        "fontWeight": "800",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "42px"
+      },
+      "headline-lg": {
+        "fontFamily": "Syne",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "38px"
+      },
+      "headline-md": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "letterSpacing": "0em",
+        "lineHeight": "30px"
+      },
+      "headline-sm": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "letterSpacing": "0em",
+        "lineHeight": "24px"
+      },
+      "headline-xl": {
+        "fontFamily": "Syne",
+        "fontSize": "40px",
+        "fontWeight": "800",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "48px"
+      },
+      "headline-xl-mobile": {
+        "fontFamily": "Syne",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "34px"
+      },
+      "label-caps": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "12px",
+        "fontWeight": "800",
+        "letterSpacing": "0.12em",
+        "lineHeight": "16px"
+      },
+      "ticker-label": {
+        "fontFamily": "Syne",
+        "fontSize": "24px",
+        "fontWeight": "800",
+        "letterSpacing": "0.05em",
+        "lineHeight": "32px"
+      }
+    }
+  },
+  "deviceType": "DESKTOP",
+  "metadata": {
+    "userRole": "OWNER"
+  },
+  "name": "projects/11498287092425392021",
+  "origin": "STITCH",
+  "projectType": "TEXT_TO_UI_PRO",
+  "screenInstances": [
+    {
+      "height": 512,
+      "id": "05d7edd48d0743aaab64e087b094c578",
+      "sourceScreen": "projects/11498287092425392021/screens/05d7edd48d0743aaab64e087b094c578",
+      "width": 512,
+      "x": 1144,
+      "y": 7466
+    },
+    {
+      "height": 286,
+      "id": "070ea62c7aaf436b9f1233b76cb7aef9",
+      "sourceScreen": "projects/11498287092425392021/screens/070ea62c7aaf436b9f1233b76cb7aef9",
+      "width": 512,
+      "x": 1600
+    },
+    {
+      "height": 5805,
+      "id": "1ebd3bfb038c4b08a07b0ee3a495879a",
+      "sourceScreen": "projects/11498287092425392021/screens/1ebd3bfb038c4b08a07b0ee3a495879a",
+      "width": 1280,
+      "x": 3904
+    },
+    {
+      "height": 1350,
+      "id": "1f3f3523-b2ee-43f3-a400-ec7a506f581d",
+      "sourceScreen": "projects/11498287092425392021/screens/9043080192108968200",
+      "type": "SCREEN_INSTANCE",
+      "width": 1080,
+      "x": 576,
+      "y": 5860
+    },
+    {
+      "height": 512,
+      "id": "3206c442d0be402d8e1bb527799f618e",
+      "sourceScreen": "projects/11498287092425392021/screens/3206c442d0be402d8e1bb527799f618e",
+      "width": 512,
+      "x": 576,
+      "y": 9981
+    },
+    {
+      "height": 149,
+      "id": "3ad52d09-7353-4a72-9aeb-0779b44d0016",
+      "sourceScreen": "projects/11498287092425392021/screens/5389802175707153203",
+      "type": "SCREEN_INSTANCE",
+      "width": 512,
+      "y": 5860
+    },
+    {
+      "height": 1024,
+      "hidden": true,
+      "id": "43f30664-3e2b-4d6a-b734-bcbea613c5e4",
+      "sourceScreen": "projects/11498287092425392021/screens/17870323773067289244",
+      "type": "SCREEN_INSTANCE",
+      "width": 512
+    },
+    {
+      "height": 653,
+      "id": "6efe683e-135f-4f53-9ef4-47b7524bb274",
+      "sourceScreen": "projects/11498287092425392021/screens/2120690942525408520",
+      "type": "SCREEN_INSTANCE",
+      "width": 512,
+      "y": 9981
+    },
+    {
+      "height": 512,
+      "id": "a7e80bcff8474d24ae3673055938c053",
+      "sourceScreen": "projects/11498287092425392021/screens/a7e80bcff8474d24ae3673055938c053",
+      "width": 512,
+      "x": 2176
+    },
+    {
+      "height": 540,
+      "id": "assets_9d9356a4c6b343a1ba536a322abd38d1",
+      "sourceAsset": "assets/9d9356a4c6b343a1ba536a322abd38d1",
+      "type": "DESIGN_SYSTEM_INSTANCE",
+      "width": 960,
+      "x": 576
+    },
+    {
+      "height": 1350,
+      "id": "bc03dd45-6ea0-4d5c-ac3e-49a7e0995b13",
+      "sourceScreen": "projects/11498287092425392021/screens/9057812753811945281",
+      "type": "SCREEN_INSTANCE",
+      "width": 1080,
+      "y": 7466
+    },
+    {
+      "height": 512,
+      "id": "d0762f1c5eb0428a97cd4b1aeb5a2c5f",
+      "sourceScreen": "projects/11498287092425392021/screens/d0762f1c5eb0428a97cd4b1aeb5a2c5f",
+      "width": 512,
+      "x": 1152,
+      "y": 9981
+    },
+    {
+      "height": 653,
+      "id": "ff6b1abe-4805-4d96-abf2-249d59621d7a",
+      "sourceScreen": "projects/11498287092425392021/screens/15517197390047370457",
+      "type": "SCREEN_INSTANCE",
+      "width": 512,
+      "y": 9072
+    }
+  ],
+  "thumbnailScreenshot": {
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1W8WXeCMR8LVsAEyrhJiTmEoADdGtBVKsNUqAcW4DrqEqES0Jkxte_kz5KCJuKN0BQJB4LiCMRHA8XmIv3n2tt7G94qVyXa__2YEz_tF7Icc44zTVszKR_nCK4lvS78CEatCen_7LCvtqB_2FNg1-cftoI-pzi0c7yMjw47eyMcTh-3d5C3olctdkgd7UQZh3Ojg5uP7j4mk9xyKH5QPBRZwk_W33xQMQHXi2355zZpOphedKP6ySTECJo",
+    "name": "projects/11498287092425392021/screens/a7e80bcff8474d24ae3673055938c053/fileEntries/screenshot"
+  },
+  "title": "DG Montador Landing Page",
+  "updateTime": "2026-09-07T18:14:13.505440Z",
+  "visibility": "PRIVATE"
+}
